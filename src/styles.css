@@ -4,13 +4,8 @@ body {
 .WeatherApp {
   border: 5px solid #f2f2f2;
   /* border-style: inset; */
-<<<<<<< HEAD
-  margin-left: 350px;
-  margin-right: 350px;
-=======
-  margin-left: 615px;
-  margin-right: 615px;
->>>>>>> a1ade65c6f0fae6162e75e1a76a309dabbe26293
+  margin-left: 305px;
+  margin-right: 325px;
   margin-bottom: 400px;
   box-shadow: 20px 20px rgb(204, 225, 233);
   border-radius: 12%;
