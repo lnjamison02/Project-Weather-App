@@ -66,6 +66,10 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+.currentDay, 
+.currentCondition {
+  display: inline-block;
+}
 
 input[type="submit"] {
   width: 25%;
