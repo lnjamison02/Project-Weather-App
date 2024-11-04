@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+}
+/* .WeatherApp { */
+/* border: 5px solid #f2f2f2; */
+/* border-style: inset; */
+/* margin-left: 415px; */
+/* margin-right: 415px; */
+/* margin-bottom: 400px; */
+/* box-shadow: 20px 20px rgb(204, 225, 233); */
+/* border-radius: 12%; */
+/* } */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 100;
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+.didact-gothic-regular {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 34px;
+}
+p {
+  font-size: 20px;
+}
+h2 {
+  background: #f2f2f2;
+  padding: 20px;
+  position: absolute;
+  right: 500px;
+  top: 185px;
+  font-size: 38px;
+}
+.WeekdaysTemp p {
+  color: lightcoral;
+  font-size: 16px;
+}
+h1,
+h2,
+p,
+.WeekdaysTemp {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.WeekdaysTemp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type="search"],
+select {
+  width: 74%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2.5px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 25%;
+  background-color: rgb(112, 176, 240);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(141, 189, 224);
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
